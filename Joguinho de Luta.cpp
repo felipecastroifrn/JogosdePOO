@@ -11,9 +11,9 @@ int main()
 	string P1, P2;
 	bool sair = false;
 
-	cout << "\aDigite o nome do player 1" << endl;
+	cout << "Digite o nome do jogador 1" << endl;
 	cin >> P1;
-	cout << "\aDigite o nome do player 2" << endl;
+	cout << "Digite o nome do jogador 2" << endl;
 	cin >> P2;
 
 	while (sair == false)
@@ -24,7 +24,7 @@ int main()
 		cout << " ^                   ^  " << endl;
 		cout << P1 << "                " << P2 << endl;
 		cout << "Vida: " << Vida1 << "         " << " Vida: " << Vida2 << endl;
-		cout << "Atk: 2" << "         " << "Atk: 2" << endl;
+		cout << "Atq: 2" << "         " << "Atq: 2" << endl;
 		cout << "Def: 4" << "         " << "Def: 4" << endl;
 
 		int dado6;
