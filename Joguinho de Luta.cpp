@@ -56,9 +56,9 @@ int main()
 		system("cls");
 	}
 	cout << "Game Over" << endl;
-	if (Vida1 > 0) cout << "Vitoria de: " << P1 << endl;
-	else if (Vida2 > 0) cout << "Vitoria de: " << P2 << endl;
-	else cout << "Ambos perderam" << endl;
+	if (Vida1 > 0) cout << "voce ganhou: " << P1 << endl;
+	else if (Vida2 > 0) cout << "voce ganhou: " << P2 << endl;
+	else cout << "os dois perderam" << endl;
 
 	return 0;
 }
