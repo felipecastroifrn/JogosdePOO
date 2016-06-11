@@ -28,8 +28,8 @@ int main() //funçaõ principal
 		imprimir_espacos(espacos_2); //imprimindo espaços do carrinho 2
 		cout << "-o-o>" << endl; //imprimindo a outra parte do carrinho
 	} //fim do laço
-	if (espacos_1 > espacos_2) cout << "Carro 1 venceu a corrida!" << endl; ;//Imprimi na tela "Carro 1 venceu!" se o carro 1 vencer
-	else if (espacos_2 > espacos_1) cout << "Carro 2 venceu a corrida!" << endl; ;//Imprimi na tela "Carro 2 venceu!" se o carro 2 vencer
+	if (espacos_1 > espacos_2) cout << "Carro 1 venceu a corrida!" << endl; //Imprimi na tela "Carro 1 venceu!" se o carro 1 vencer
+	else if (espacos_2 > espacos_1) cout << "Carro 2 venceu a corrida!" << endl;//Imprimi na tela "Carro 2 venceu!" se o carro 2 vencer
 	else cout << "Empate!" << endl; ;//Imprimir na tela "Empate" se nenhum dos carrinhos vencerem
 	return 0; //término do jogo
 } //fim
