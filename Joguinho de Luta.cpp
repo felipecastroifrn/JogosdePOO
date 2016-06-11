@@ -8,7 +8,7 @@ int main() //função principal
 {
 	int Vida1 = 20, Vida2 = 20; //vida
 	int dano1 = 0, dano2 = 0; //dano
-	string P1, P2;
+	string jog1, jog2;
 	bool sair = false;
 	int vida1 = 20, vida2 = 20;//Vida dos lutadores
 	int danoc1 = 0, danoc2 = 0;//Dano causado
